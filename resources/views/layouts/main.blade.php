@@ -3,7 +3,8 @@
 <head>
     @include('layouts.partial.meta')
     
-    <title>Education</title>
+    
+    <title>@yield('title', 'STIH Damarica Palopo')</title>
 
     @include('layouts.partial.styles')
     

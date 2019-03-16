@@ -19,6 +19,10 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/pendaftaran', function () {
+    return view('form_pendaftaran');
+});
+
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();
